@@ -1,4 +1,4 @@
-# /review - Review a Pull Request
+# /ambient-fork-review - Review a Pull Request
 
 ## User Input
 
@@ -18,7 +18,7 @@ Perform a comprehensive code review of a pull request for the Ambient Code Platf
 ## Process
 
 1. Parse the PR reference from the user input. Extract the owner, repo, and PR number. If only a number is given, default to `tiwillia/platform`.
-2. Read the pr-reviewer skill at `.claude/skills/pr-reviewer/SKILL.md`
+2. Read the ambient-fork-pr-review skill at `.claude/skills/ambient-fork-pr-review/SKILL.md`
 3. Follow the skill's review process:
    - Fetch PR diff and metadata using `gh`
    - Categorize changed files by component

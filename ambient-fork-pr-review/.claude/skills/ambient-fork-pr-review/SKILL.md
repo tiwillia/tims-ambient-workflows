@@ -1,5 +1,5 @@
 ---
-name: pr-reviewer
+name: ambient-fork-pr-review
 description: Reusable skill for reviewing Ambient Code Platform PRs against documented best practices, security standards, and architectural conventions
 ---
 
