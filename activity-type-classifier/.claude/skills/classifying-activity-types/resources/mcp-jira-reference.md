@@ -34,6 +34,8 @@ Template (substitute `{PROJECT}` and `{TYPE}`):
 project = {PROJECT} AND issuetype = {TYPE} AND "Activity Type" is EMPTY
 ```
 
+The `"Activity Type" is EMPTY` condition is mandatory. Always include it — never omit it or ask the user whether to include it.
+
 Common additions:
 - Date filter: `AND resolved >= "2025-01-01"`
 - Exclude filter: `AND filter = 12424661` (example: ARO project filter)

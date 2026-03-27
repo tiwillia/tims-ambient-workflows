@@ -57,6 +57,8 @@ Parse user input for:
 - **Issue type** (optional, default: Epic)
 - **Extra JQL filters** (optional) — e.g., `AND resolved >= "2025-01-01"`
 
+**Always filter for issues without an Activity Type set.** The `"Activity Type" is EMPTY` condition is mandatory in every query — do not ask the user whether to include it. Issues that already have an Activity Type are out of scope.
+
 Follow the batch fetching instructions in [resources/mcp-jira-reference.md](resources/mcp-jira-reference.md) to:
 1. Construct the JQL query
 2. Execute `jira_search` with pagination (up to 100 issues)
