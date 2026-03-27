@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__*__jira_*",
+      "mcp__jira_*",
+      "Bash(python3:*)",
+      "Bash(jq:*)"
+    ],
+    "deny": []
+  }
+}
